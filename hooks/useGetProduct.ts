@@ -57,13 +57,13 @@ const productInfo = {
   colors: [
     {
       label: "black",
-      url: "/image.png",
+      url: "/black.png",
       name: "Black T-shirt",
     },
     {
-      label: "red",
-      url: "/red.jpg",
-      name: "Red T-shirt",
+      label: "white",
+      url: "/white.png",
+      name: "white T-shirt",
     },
   ],
   sizeArray: [

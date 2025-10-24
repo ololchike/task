@@ -9,7 +9,7 @@ type RadioGroupItemProps = React.ComponentProps<
   typeof RadioGroupPrimitive.Item
 > & {
   size?: "default" | "custom";
-  color?: "black" | "red" | "green";
+  color?: "black" | "red" | "white";
 };
 
 function RadioGroup({
@@ -38,13 +38,13 @@ function RadioGroupItem({
   const colorMap: Record<typeof color, string> = {
     black: "border-black text-black",
     red: "border-red-500 text-red-500",
-    green: "border-green-500 text-green-500",
+    white: "border-gray-500 text-gray-200",
   };
 
   const fillMap: Record<typeof color, string> = {
     black: "fill-black",
     red: "fill-red-500",
-    green: "fill-green-500",
+    white: "fill-gray-200",
   };
 
   return (

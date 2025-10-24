@@ -42,7 +42,7 @@ export default function ProductOptions({
           {colors.map(({ label }, i) => (
             <div key={i} className="flex items-center space-x-2 mt-1">
               <RadioGroupItem
-                color={label as "black" | "red" | "green"}
+                color={label as "black" | "red" | "white"}
                 size="custom"
                 value={label}
                 id={label}
